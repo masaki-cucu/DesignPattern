@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Iterator;
+
+import iteratorClasses.MyTeacher;
+import iteratorClasses.Teacher;
+
+/**
+ *
+ * @author masaki-kibashi
+ */
+public class main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Teacher you = new MyTeacher();
+        you.createStudentList();
+        you.callStudents();
+        
+    }
+    
+}
